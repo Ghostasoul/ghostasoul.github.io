@@ -120,7 +120,7 @@ game:
 
 myBlog:
   - name: MyBlog
-    url: https://ghostasoul.github.io
+    url: https://ghostasoul.github.io/myblog
     img: /images/logos/github.png
     description: 知识分享的博客
 
