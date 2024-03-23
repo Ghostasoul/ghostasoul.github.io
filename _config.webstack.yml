@@ -32,37 +32,103 @@ menu:
   - name: 测试页面
     icon: far fa-star
     config: testPage
-  - name: 常用工具
+  - name: 常用推荐
     icon: far fa-star
     config: hotTools
-  - name: 其他工具
+  - name: 码农专区
     icon: fas fa-tools
     submenu:
-      - name: 开发工具
+      - name: 代码托管
         icon: fas fa-tools
-        config: devTools
-      - name: 我的网站
+        config: gitHosting
+      - name: 静态网站
         icon: fas fa-tools
-        config: myvitpress
-      - name: 我的博客
+        config: staticWebsite
+      - name: 云服务器
         icon: fas fa-blog
-        config: myBlog
-      - name: 视频
+        config: cloudServer
+
+  - name: 教育学习
+    icon: fas fa-tools
+    submenu:
+      - name: 博客站点
         icon: fas fa-tools
-        config: video
-      - name: 音乐
+        config: blogSite
+      - name: 书籍文档
         icon: fas fa-tools
-        config: music
-      - name: 游戏
+        config: bookDocument
+      - name: 视频教程
+        icon: fas fa-blog
+        config: videoTutorial
+
+  - name: 社区论坛
+    icon: fas fa-tools
+    submenu:
+      - name: 开源社区
         icon: fas fa-tools
-        config: game
+        config: openSource
+      - name: 技术社区
+        icon: fas fa-tools
+        config: technicalCommunity
+      - name: 其他社区
+        icon: fas fa-blog
+        config: otherCommunity
+
+  - name: 休闲娱乐
+    icon: fas fa-tools
+    submenu:
+      - name: 影音视频
+        icon: fas fa-tools
+        config: videoAudio
+      - name: 游戏竞技
+        icon: fas fa-tools
+        config: games
+      - name: 新闻平台
+        icon: fas fa-blog
+        config: news
+
+  - name: 工具集合
+    icon: fas fa-tools
+    submenu:
+      - name: 素材资源
+        icon: fas fa-tools
+        config: material
+
+  - name: Mac专区
+    icon: fas fa-tools
+    config: macZone
 
 testPage:
   - name: Child Page
     url: /child
     img: /images/logos/myblog.png
     description: 子页面测试
-devTools:
+
+## 代码托管
+gitHosting:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://gitee.com
+    img: /images/logos/gitee.jpeg
+    description: 面向开源及私有软件项目的托管平台。
+  - name: GitCode
+    url: https://gitcode.net/explore
+    img: /images/logos/gitcode.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Bitbucket
+    url: https://bitbucket.org/
+    img: /images/logos/bitbucket.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: GitLab
+    url: https://about.gitlab.com
+    img: /images/logos/gitlab.svg
+    description: 面向开源及私有软件项目的托管平台。
+
+## 静态网站
+staticWebsite:
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
@@ -76,7 +142,8 @@ devTools:
     img: /images/logos/github.png
     description: 面向开源及私有软件项目的托管平台。
 
-video:
+## 云服务器
+cloudServer:
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
@@ -90,45 +157,170 @@ video:
     img: /images/logos/github.png
     description: 面向开源及私有软件项目的托管平台。
 
-music:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-
-game:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-
-myBlog:
+## 博客站点
+blogSite:
   - name: MyBlog
     url: https://ghostasoul.github.io/myblog
     img: /images/logos/github.png
-    description: 知识分享的博客
-
-myvitpress:
+    description: 个人分享知识的博客
   - name: MyVitPress
     url: https://ghostasoul.github.io/myvitpress
     img: /images/logos/github.png
-    description: 知识总结的网站
+    description: 个人文档网站
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 书籍文档
+bookDocument:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 视频教程
+videoTutorial:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 开源社区
+openSource:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 技术社区
+technicalCommunity:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 其他社区
+otherCommunity:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 影音视频
+videoAudio:
+  - name: YouTube
+    url: https://www.youtube.com/
+    img: /images/logos/youtube.svg
+    description: 全球最大的视频分享平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 游戏竞技
+games:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 新闻平台
+news:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+## 素材资源
+material:
+  - name: 矢量图标网
+    url: https://igoutu.cn
+    img: /images/logos/icons8.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: 60logo
+    url: https://www.60logo.com
+    img: /images/logos/60logo.png
+    description: 海量品牌LOGO下载。
+  - name: GameIcons
+    url: https://game-icons.net
+    img: /images/logos/gameIcons.svg
+    description: 游戏主题图标素材。
+
+## Mac专区
+macZone:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Gitee
+    url: https://getee.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
 
 about:
   url: /about/
@@ -147,7 +339,7 @@ aboutPage:
     description: 懒人一个
     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
-since: 2020
+since: 2024
 
 busuanzi:
   enable: true
