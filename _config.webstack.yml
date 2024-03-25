@@ -161,16 +161,36 @@ cloudServer:
 blogSite:
   - name: MyBlog
     url: https://ghostasoul.github.io/myblog
-    img: /images/logos/github.png
+    img: /images/logos/myblog.png
     description: 个人分享知识的博客
   - name: MyVitPress
     url: https://ghostasoul.github.io/myvitpress
-    img: /images/logos/github.png
+    img: /images/logos/myvitpress.png
     description: 个人文档网站
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: Java知识体系
+    url: https://pdai.tech
+    img: /images/logos/pdai.gif
+    description: Java全栈知识体系
+  - name: Bugstack
+    url: https://bugstack.cn
+    img: /images/logos/bugstack.png
+    description: bugstack 虫洞栈
+  - name: Java进阶知识扫盲
+    url: https://doocs.github.io/advanced-java/#/
+    img: /images/logos/advancedjava.png
+    description: 互联网 Java 工程师进阶知识完全扫盲
+  - name: Java学习 + 面试指南
+    url: https://javaguide.cn
+    img: /images/logos/javaguide.svg
+    description: Java 程序员所需要掌握的核心知识
+  - name: Java知识图谱
+    url: https://www.altitude.xin/blog/home/#/
+    img: /images/logos/saitai.png
+    description: Java 相关的知识博客
+  - name: Road To Coding
+    url: https://www.r2coding.com/#/
+    img: /images/logos/r2coding.png
+    description: 编程自学之路
 
 ## 书籍文档
 bookDocument:
@@ -253,25 +273,29 @@ videoAudio:
     url: https://www.youtube.com/
     img: /images/logos/youtube.svg
     description: 全球最大的视频分享平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: 奈飞工厂
+    url: https://www.netflixgc.com
+    img: /images/logos/netflix.png
+    description: 致力于免费提供高清影视内容的全球视频平台。
+  - name: 6V电影网
+    url: https://www.hao6v.tv
+    img: /images/logos/6v.gif
+    description: 免费电影电视剧下载网站。
+  - name: 可可影视
+    url: https://www.keke6.app
+    img: /images/logos/kekeyingshi.png
+    description: 你想看的都有。
 
 ## 游戏竞技
 games:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: PS游戏百宝箱
+    url: https://www.memechen.com
+    img: /images/logos/chenchen.png
+    description: PS主机游戏资讯站
+  - name: 游民星空
+    url: https://www.gamersky.com
+    img: /images/logos/gamersky.png
+    description: 大型单机游戏门户网站。
   - name: Gitee
     url: https://getee.com/
     img: /images/logos/github.png
