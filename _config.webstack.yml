@@ -124,38 +124,42 @@ gitHosting:
     description: 面向开源及私有软件项目的托管平台。
   - name: GitLab
     url: https://about.gitlab.com
-    img: /images/logos/gitlab.svg
+    img: /images/logos/gitlab.webp
     description: 面向开源及私有软件项目的托管平台。
 
 ## 静态网站
 staticWebsite:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: Webify
+    url: https://webify.cloudbase.net
+    img: /images/logos/tengxunyun.webp
+    description: 专为web开发者打造的静态网站托管服务。
+  - name: Netlify
+    url: https://app.netlify.com
+    img: /images/logos/netlify.webp
+    description: 组合式Web平台。
+  - name: Vercel
+    url: https://vercel.com
+    img: /images/logos/vercel.webp
+    description: 通过前端云构建和服务器端计算，为开发人员提供快速、可靠的静态网站托管服务。
 
 ## 云服务器
 cloudServer:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: 阿里云
+    url: https://www.aliyun.com
+    img: /images/logos/aliyun.jpg
+    description: 上云就上阿里云，云服务器、云数据库、云存储、云函数、云容器等一应俱全。
+  - name: 腾讯云
+    url: https://cloud.tencent.com
+    img: /images/logos/tengxunyun.webp
+    description: 产业智变，云启未来。
+  - name: 华为云
+    url: https://www.huaweicloud.com
+    img: /images/logos/huaweiyun.png
+    description: 共建智能世界，构建智慧生活。
+  - name: 京东云
+    url: https://www.jdcloud.com
+    img: /images/logos/jingdongyun.jpg
+    description: 京东科技集团旗下公有云服务提供商。
 
 ## 博客站点
 blogSite:
@@ -194,33 +198,17 @@ blogSite:
 
 ## 书籍文档
 bookDocument:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: 微信读书
+    url: https://weread.qq.com
+    img: /images/logos/weixindushu.jpg
+    description: 微信读书是一款基于微信平台的网络文学阅读产品。
 
 ## 视频教程
 videoTutorial:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: 慕课网
+    url: https://www.imooc.com
+    img: /images/logos/imooc.png
+    description: 程序员的梦工厂。
 
 ## 开源社区
 openSource:
@@ -239,18 +227,18 @@ openSource:
 
 ## 技术社区
 technicalCommunity:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: 简书
+    url: https://www.jianshu.com
+    img: /images/logos/jianshu.png
+    description: 简书-创作你的创作，发现你的发现。
+  - name: 稀土
+    url: https://juejin.cn
+    img: /images/logos/xitu.png
+    description: 代码不止，掘金不停。
+  - name: CSDN
+    url: https://www.csdn.net
+    img: /images/logos/csdn.jpg
+    description: 专业技术社区。
 
 ## 其他社区
 otherCommunity:
@@ -296,10 +284,6 @@ games:
     url: https://www.gamersky.com
     img: /images/logos/gamersky.png
     description: 大型单机游戏门户网站。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
 
 ## 新闻平台
 news:
