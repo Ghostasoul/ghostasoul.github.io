@@ -104,6 +104,42 @@ testPage:
     img: /images/logos/myblog.png
     description: 子页面测试
 
+## 常用推荐
+hotTools:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: MyBlog
+    url: https://ghostasoul.github.io/myblog
+    img: /images/logos/myblog.png
+    description: 个人分享知识的博客
+  - name: MyVitPress
+    url: https://ghostasoul.github.io/myvitpress
+    img: /images/logos/myvitpress.png
+    description: 个人文档网站
+  - name: Java知识体系
+    url: https://pdai.tech
+    img: /images/logos/pdai.gif
+    description: Java全栈知识体系
+  - name: 微信读书
+    url: https://weread.qq.com
+    img: /images/logos/weixindushu.jpg
+    description: 微信读书是一款基于微信平台的网络文学阅读产品。
+  - name: 奈飞工厂
+    url: https://www.netflixgc.com
+    img: /images/logos/netflix.png
+    description: 致力于免费提供高清影视内容的全球视频平台。
+  - name: 6V电影网
+    url: https://www.hao6v.tv
+    img: /images/logos/6v.gif
+    description: 免费电影电视剧下载网站。
+  - name: MacWK
+    url: https://macwk.cn
+    img: /images/logos/macwk.png
+    description: 精品Mac软件下载。
+
+
 ## 代码托管
 gitHosting:
   - name: Github
@@ -195,6 +231,14 @@ blogSite:
     url: https://www.r2coding.com/#/
     img: /images/logos/r2coding.png
     description: 编程自学之路
+  - name: Solo
+    url: https://b3log.org/solo/
+    img: /images/logos/solo.png
+    description: Java开源博客系统
+  - name: 代码随想录
+    url: https://programmercarl.com
+    img: /images/logos/daimasuixianglu.png
+    description: 认准代码随想录，学习算法不迷路
 
 ## 书籍文档
 bookDocument:
@@ -202,6 +246,10 @@ bookDocument:
     url: https://weread.qq.com
     img: /images/logos/weixindushu.jpg
     description: 微信读书是一款基于微信平台的网络文学阅读产品。
+  - name: 链滴
+    url: https://ld246.com
+    img: /images/logos/liandi.png
+    description: 记录生活，链接未来。
 
 ## 视频教程
 videoTutorial:
@@ -242,18 +290,10 @@ technicalCommunity:
 
 ## 其他社区
 otherCommunity:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: 写作社区
+    url: https://xie.infoq.cn
+    img: /images/logos/xiezuo.png
+    description: 专业技术博客社区。
 
 ## 影音视频
 videoAudio:
@@ -287,18 +327,14 @@ games:
 
 ## 新闻平台
 news:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: 微博
+    url: https://weibo.com/
+    img: /images/logos/weibo.jpg
+    description: 随时随地发现新鲜事。
+  - name: 今日头条
+    url: https://www.toutiao.com
+    img: /images/logos/toutiao.jpg
+    description: 你关心的才是头条。
 
 ## 素材资源
 material:
@@ -317,18 +353,11 @@ material:
 
 ## Mac专区
 macZone:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: MacWK
+    url: https://macwk.cn
+    img: /images/logos/macwk.png
+    description: 精品Mac软件下载。
+
 
 about:
   url: /about/
