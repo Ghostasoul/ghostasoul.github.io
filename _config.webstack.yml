@@ -64,7 +64,7 @@ menu:
   - name: 社区论坛
     icon: fas fa-tools
     submenu:
-      - name: 开源社区
+      - name: 技术官网
         icon: fas fa-tools
         config: openSource
       - name: 技术社区
@@ -258,20 +258,12 @@ videoTutorial:
     img: /images/logos/imooc.png
     description: 程序员的梦工厂。
 
-## 开源社区
+## 技术官网
 openSource:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Gitee
-    url: https://getee.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+  - name: Spring
+    url: https://spring.io
+    img: /images/logos/spring.webp
+    description: Spring框架官网。
 
 ## 技术社区
 technicalCommunity:
