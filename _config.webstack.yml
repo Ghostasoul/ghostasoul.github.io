@@ -93,6 +93,9 @@ menu:
       - name: 素材资源
         icon: fas fa-tools
         config: material
+      - name: 网络加速
+        icon: fas fa-tools
+        config: internetSpeed
 
   - name: Mac专区
     icon: fas fa-tools
@@ -342,6 +345,14 @@ material:
     url: https://game-icons.net
     img: /images/logos/gameIcons.svg
     description: 游戏主题图标素材。
+
+## 网络加速
+internetSpeed:
+  - name: Steam++
+    url: https://steampp.net
+    img: /images/logos/steam++.png
+    description: 可以加速Steam和Origin游戏的网络加速器。
+
 
 ## Mac专区
 macZone:
