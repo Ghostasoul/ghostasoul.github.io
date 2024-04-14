@@ -1,5 +1,5 @@
 # webstack
-网站导航
+网站导航（**用来记录自己常用的网站**）
 >所使用的主题网站（通过修改config.yml文件中`theme`字段的值来确认使用哪个主题）：
 > 
 > https://webstack.hclonely.com（导航网站）
