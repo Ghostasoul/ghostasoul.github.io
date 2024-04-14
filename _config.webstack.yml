@@ -345,6 +345,15 @@ material:
     url: https://game-icons.net
     img: /images/logos/gameIcons.svg
     description: 游戏主题图标素材。
+  - name: Pexels
+    url: https://www.pexels.com
+    img: /images/logos/pexels.png
+    description: 免费高质量图片素材。
+  - name: Unsplash
+    url: https://unsplash.com
+    img: /images/logos/unsplash.png
+    description: 免费无版权高清图片。
+
 
 ## 网络加速
 internetSpeed:
