@@ -242,6 +242,10 @@ blogSite:
     url: https://programmercarl.com
     img: /images/logos/daimasuixianglu.png
     description: 认准代码随想录，学习算法不迷路
+  - name: 吴师兄学算法
+    url: https://blog.algomooc.com
+    img: /images/logos/wushixiong.png
+    description: 从初学者到算法专家，学习算法，刷题，刷题，刷题，提升算法能力
 
 ## 书籍文档
 bookDocument:
