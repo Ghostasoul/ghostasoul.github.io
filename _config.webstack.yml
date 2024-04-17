@@ -101,6 +101,10 @@ menu:
     icon: fas fa-tools
     config: macZone
 
+  - name: AI相关
+    icon: fas fa-tools
+    config: aiTools
+
 testPage:
   - name: Child Page
     url: /child
@@ -199,6 +203,10 @@ cloudServer:
     url: https://www.jdcloud.com
     img: /images/logos/jingdongyun.jpg
     description: 京东科技集团旗下公有云服务提供商。
+  - name: 雨云
+    url: https://www.rainyun.com/home
+    img: /images/logos/yuyun.png
+    description: 新一代云服务提供商。
 
 ## 博客站点
 blogSite:
@@ -257,6 +265,10 @@ bookDocument:
     url: https://ld246.com
     img: /images/logos/liandi.png
     description: 记录生活，链接未来。
+  - name: 豆瓣读书
+    url: https://book.douban.com
+    img: /images/logos/douban.jpg
+    description: 豆瓣读书，一个记录书评的网站。
 
 ## 视频教程
 videoTutorial:
@@ -374,6 +386,12 @@ macZone:
     img: /images/logos/macwk.png
     description: 精品Mac软件下载。
 
+## AI相关
+aiTools:
+  - name: ChatGPT
+    url: https://chat.openai.com
+    img: /images/logos/chatgpt.png
+    description: 很好用的AI工具···
 
 about:
   url: /about/
