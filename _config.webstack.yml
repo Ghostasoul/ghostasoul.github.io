@@ -60,6 +60,9 @@ menu:
       - name: 视频教程
         icon: fas fa-blog
         config: videoTutorial
+      - name: 考研相关
+        icon: fas fa-blog
+        config: postGraduate
 
   - name: 社区论坛
     icon: fas fa-tools
@@ -268,7 +271,7 @@ bookDocument:
   - name: 豆瓣读书
     url: https://book.douban.com
     img: /images/logos/douban.jpg
-    description: 豆瓣读书，一个记录书评的网站。
+    description: 豆瓣读书，一个记录书评的网站。postGraduate
 
 ## 视频教程
 videoTutorial:
@@ -276,6 +279,13 @@ videoTutorial:
     url: https://www.imooc.com
     img: /images/logos/imooc.png
     description: 程序员的梦工厂。
+
+## 考研相关
+postGraduate:
+  - name: 研招网
+    url: https://yz.chsi.com.cn
+    img: /images/logos/yanzhaowang.png
+    description: 中国研究生招生信息网。
 
 ## 技术官网
 openSource:
