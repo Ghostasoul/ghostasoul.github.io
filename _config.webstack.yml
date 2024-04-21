@@ -383,6 +383,10 @@ material:
     url: https://unsplash.com
     img: /images/logos/unsplash.png
     description: 免费无版权高清图片。
+  - name: 搞定设计
+    url: https://www.gaoding.com
+    img: /images/logos/gaoding.svg
+    description: 做图做视频必备。
 
 
 ## 网络加速
