@@ -395,6 +395,10 @@ macZone:
     url: https://macwk.cn
     img: /images/logos/macwk.png
     description: 精品Mac软件下载。
+  - name: 腾讯柠檬
+    url: https://lemon.qq.com/lab/
+    img: /images/logos/ningmeng.png
+    description: 收录免费、正版、好用的Mac软件。
 
 ## AI相关
 aiTools:
