@@ -99,6 +99,9 @@ menu:
       - name: 网络加速
         icon: fas fa-tools
         config: internetSpeed
+      - name: 实用工具
+        icon: fas fa-tools
+        config: usefulTools
 
   - name: Mac专区
     icon: fas fa-tools
@@ -187,6 +190,10 @@ staticWebsite:
     url: https://vercel.com
     img: /images/logos/vercel.webp
     description: 通过前端云构建和服务器端计算，为开发人员提供快速、可靠的静态网站托管服务。
+  - name: Solo
+    url: https://b3log.org/solo/
+    img: /images/logos/solo.png
+    description: Java开源博客系统
 
 ## 云服务器
 cloudServer:
@@ -210,6 +217,10 @@ cloudServer:
     url: https://www.rainyun.com/home
     img: /images/logos/yuyun.png
     description: 新一代云服务提供商。
+  - name: 乔拓云建站
+    url: https://www.webportal.top
+    img: /images/logos/qiaotuoyun.png
+    description: 创建网站，小程序的服务商。
 
 ## 博客站点
 blogSite:
@@ -233,7 +244,7 @@ blogSite:
     url: https://doocs.github.io/advanced-java/#/
     img: /images/logos/advancedjava.png
     description: 互联网 Java 工程师进阶知识完全扫盲
-  - name: Java学习 + 面试指南
+  - name: JavaGuide
     url: https://javaguide.cn
     img: /images/logos/javaguide.svg
     description: Java 程序员所需要掌握的核心知识
@@ -245,10 +256,6 @@ blogSite:
     url: https://www.r2coding.com/#/
     img: /images/logos/r2coding.png
     description: 编程自学之路
-  - name: Solo
-    url: https://b3log.org/solo/
-    img: /images/logos/solo.png
-    description: Java开源博客系统
   - name: 代码随想录
     url: https://programmercarl.com
     img: /images/logos/daimasuixianglu.png
@@ -257,6 +264,10 @@ blogSite:
     url: https://blog.algomooc.com
     img: /images/logos/wushixiong.png
     description: 从初学者到算法专家，学习算法，刷题，刷题，刷题，提升算法能力
+  - name: JVM底层原理
+    url: https://doocs.github.io/jvm/
+    img: /images/logos/jvm.png
+    description: JVM 底层原理最全知识总结
 
 ## 书籍文档
 bookDocument:
@@ -276,6 +287,10 @@ bookDocument:
     url: https://www.thinkdoc.vip/#google_vignette
     img: /images/logos/thinkdoc.png
     description: 收录最优质的电子图书，提供最方便的阅读体验。
+  - name: GitBook
+    url: https://git-scm.com/book/zh/v2
+    img: /images/logos/gitbook.png
+    description: 讲解Git最棒的电子书。
 
 ## 视频教程
 videoTutorial:
@@ -297,6 +312,22 @@ openSource:
     url: https://spring.io
     img: /images/logos/spring.webp
     description: Spring框架官网。
+  - name: Apache
+    url: https://www.apache.org
+    img: /images/logos/apache.jpg
+    description: Apache基金会官网。
+  - name: Sentinel
+    url: https://sentinelguard.io/zh-cn/index.html
+    img: /images/logos/sentinel.png
+    description: 面向分布式、多语言异构化服务架构的流量治理组件
+  - name: Nextjs
+    url: https://nextjs.org/
+    img: /images/logos/nextjs.svg
+    description: 网络的React框架。
+  - name: Nodejs
+    url: https://nodejs.org/
+    img: /images/logos/nodejs.png
+    description: 免费、开源、跨平台的JavaScript运行时环境，允许开发人员创建服务器、Web应用程序、命令行工具和脚本。
 
 ## 技术社区
 technicalCommunity:
@@ -312,6 +343,18 @@ technicalCommunity:
     url: https://www.csdn.net
     img: /images/logos/csdn.jpg
     description: 专业技术社区。
+  - name: 牛客网
+    url: https://www.nowcoder.com
+    img: /images/logos/niuke.png
+    description: 找工作，找面试，找实习，找工作。
+  - name: W2Solo
+    url: https://www.w2solo.com
+    img: /images/logos/w2solo.png
+    description: 独立开发者社区。
+  - name: 京东云
+    url: https://developer.jdcloud.com
+    img: /images/logos/jdcloud.png
+    description: 京东云-开发者社区。
 
 ## 其他社区
 otherCommunity:
@@ -338,6 +381,14 @@ videoAudio:
     url: https://www.keke6.app
     img: /images/logos/kekeyingshi.png
     description: 你想看的都有。
+  - name: 布谷TV
+    url: https://www.bugutv.org
+    img: /images/logos/bugu.png
+    description: 免费4K电影下载网站。
+  - name: 影视森林
+    url: http://www.549.tv
+    img: /images/logos/yingshisenlin.png
+    description: 众多影视网站的聚合。
 
 ## 游戏竞技
 games:
@@ -349,6 +400,14 @@ games:
     url: https://www.gamersky.com
     img: /images/logos/gamersky.png
     description: 大型单机游戏门户网站。
+  - name: Fandom
+    url: https://www.fandom.com
+    img: /images/logos/fandom.png
+    description: 游戏资料网站。
+  - name: 布锅锅联盟宇宙
+    url: https://buguoguo.cn
+    img: /images/logos/buguoguolol.png
+    description: 英雄联盟资料网站。
 
 ## 新闻平台
 news:
@@ -387,6 +446,14 @@ material:
     url: https://www.gaoding.com
     img: /images/logos/gaoding.svg
     description: 做图做视频必备。
+  - name: 微软PPT模版
+    url: https://www.officeplus.cn/PPT/template/
+    img: /images/logos/weiruanppt.svg
+    description: 微软官方PPT模板免费下载。
+  - name: 一网一匠
+    url: https://ywyj.cn
+    img: /images/logos/ywyj.png
+    description: 一起发现有趣产品。
 
 
 ## 网络加速
@@ -396,6 +463,16 @@ internetSpeed:
     img: /images/logos/steam++.png
     description: 可以加速Steam和Origin游戏的网络加速器。
 
+## 实用工具
+usefulTools:
+  - name: 实用工具大全
+    url: https://tool.520101.com
+    img: /images/logos/tool520101.gif
+    description: 很全的在线实用工具网站。
+  - name: 在线代码格式化
+    url: https://tool.oschina.net/codeformat/xml/
+    img: /images/logos/tooloschina.jpg
+    description: 在线代码格式化工具。
 
 ## Mac专区
 macZone:
