@@ -38,22 +38,29 @@ menu:
   - name: 码农专区
     icon: fas fa-tools
     submenu:
-      - name: 代码托管
-        icon: fas fa-tools
-        config: gitHosting
-      - name: 静态网站
-        icon: fas fa-tools
-        config: staticWebsite
       - name: 云服务器
         icon: fas fa-blog
         config: cloudServer
+      - name: 代码托管
+        icon: fas fa-tools
+        config: gitHosting
+      - name: 开源项目
+        icon: fas fa-tools
+        config: staticWebsite
+      - name: 博客站点
+        icon: fas fa-tools
+        config: blogSite
+      - name: 技术官网
+        icon: fas fa-tools
+        config: openSource
+      - name: 技术社区
+        icon: fas fa-tools
+        config: technicalCommunity
+
 
   - name: 教育学习
     icon: fas fa-tools
     submenu:
-      - name: 博客站点
-        icon: fas fa-tools
-        config: blogSite
       - name: 书籍文档
         icon: fas fa-tools
         config: bookDocument
@@ -63,19 +70,10 @@ menu:
       - name: 考研相关
         icon: fas fa-blog
         config: postGraduate
-
-  - name: 社区论坛
-    icon: fas fa-tools
-    submenu:
-      - name: 技术官网
-        icon: fas fa-tools
-        config: openSource
-      - name: 技术社区
-        icon: fas fa-tools
-        config: technicalCommunity
       - name: 其他社区
         icon: fas fa-blog
         config: otherCommunity
+
 
   - name: 休闲娱乐
     icon: fas fa-tools
@@ -102,6 +100,9 @@ menu:
       - name: 实用工具
         icon: fas fa-tools
         config: usefulTools
+      - name: 开发工具
+        icon: fas fa-tools
+        config: developTools
 
   - name: Mac专区
     icon: fas fa-tools
@@ -175,25 +176,33 @@ gitHosting:
     url: https://about.gitlab.com
     img: /images/logos/gitlab.webp
     description: 面向开源及私有软件项目的托管平台。
+  - name: Buddy
+    url: https://app.buddy.works
+    img: /images/logos/buddy.png
+    description: 很好用的自动化部署工具。
 
-## 静态网站
+## 开源项目
 staticWebsite:
-  - name: Webify
-    url: https://webify.cloudbase.net
-    img: /images/logos/tengxunyun.webp
-    description: 专为web开发者打造的静态网站托管服务。
-  - name: Netlify
-    url: https://app.netlify.com
-    img: /images/logos/netlify.webp
-    description: 组合式Web平台。
-  - name: Vercel
-    url: https://vercel.com
-    img: /images/logos/vercel.webp
-    description: 通过前端云构建和服务器端计算，为开发人员提供快速、可靠的静态网站托管服务。
   - name: Solo
     url: https://b3log.org/solo/
     img: /images/logos/solo.png
     description: Java开源博客系统
+  - name: RuoYi
+    url: http://ruoyi.vip
+    img: /images/logos/ruoyi.png
+    description: 后台管理系统。
+  - name: Hexo
+    url: https://hexo.io/zh-cn/
+    img: /images/logos/hexo.png
+    description: 快速、简洁且高效的博客框架。
+  - name: Hexo-Theme-Async
+    url: https://hexo-theme-async.imalun.com
+    img: /images/logos/hexoasync.svg
+    description:  一个简单而轻量级的 Hexo 主题。
+  - name: VitePress
+    url: https://vitepress.dev/zh/
+    img: /images/logos/vitepress.svg
+    description: 由 Vite 和 Vue 驱动的静态站点生成器，将 Markdown 变成优雅的文档，只需几分钟。
 
 ## 云服务器
 cloudServer:
@@ -219,8 +228,20 @@ cloudServer:
     description: 新一代云服务提供商。
   - name: 乔拓云建站
     url: https://www.webportal.top
-    img: /images/logos/qiaotuoyun.png
+    img: /images/logos/qiaoshi.png
     description: 创建网站，小程序的服务商。
+  - name: Webify
+    url: https://webify.cloudbase.net
+    img: /images/logos/tengxunyun.webp
+    description: 专为web开发者打造的静态网站托管服务。
+  - name: Netlify
+    url: https://app.netlify.com
+    img: /images/logos/netlify.webp
+    description: 组合式Web平台。
+  - name: Vercel
+    url: https://vercel.com
+    img: /images/logos/vercel.webp
+    description: 通过前端云构建和服务器端计算，为开发人员提供快速、可靠的静态网站托管服务。
 
 ## 博客站点
 blogSite:
@@ -240,10 +261,10 @@ blogSite:
     url: https://bugstack.cn
     img: /images/logos/bugstack.png
     description: bugstack 虫洞栈
-  - name: Java进阶知识扫盲
-    url: https://doocs.github.io/advanced-java/#/
+  - name: Doocs
+    url: https://doocs.github.io
     img: /images/logos/advancedjava.png
-    description: 互联网 Java 工程师进阶知识完全扫盲
+    description: 友好的技术社区，目前专注于分享技术领域相关知识。
   - name: JavaGuide
     url: https://javaguide.cn
     img: /images/logos/javaguide.svg
@@ -254,7 +275,7 @@ blogSite:
     description: Java 相关的知识博客
   - name: Road To Coding
     url: https://www.r2coding.com/#/
-    img: /images/logos/r2coding.png
+    img: /images/logos/road.png
     description: 编程自学之路
   - name: 代码随想录
     url: https://programmercarl.com
@@ -268,6 +289,18 @@ blogSite:
     url: https://doocs.github.io/jvm/
     img: /images/logos/jvm.png
     description: JVM 底层原理最全知识总结
+  - name: Hello算法
+    url: https://www.hello-algo.com/
+    img: /images/logos/hellosuanfa.png
+    description: 学习算法的一个好网站
+  - name: GitHub漫游指南
+    url: https://github.phodal.com/#/
+    img: /images/logos/githubmanyou.png
+    description: 学习GitHub相关知识的很好的网站。
+  - name: 凤凰架构
+    url: http://icyfenix.cn/summary/
+    img: /images/logos/fenghuang.png
+    description: 站在架构师的角度看系统。
 
 ## 书籍文档
 bookDocument:
@@ -281,11 +314,11 @@ bookDocument:
     description: 记录生活，链接未来。
   - name: 豆瓣读书
     url: https://book.douban.com
-    img: /images/logos/douban.jpg
+    img: /images/logos/douban.png
     description: 豆瓣读书，一个记录书评的网站。postGraduate
   - name: 欢乐图书馆
     url: https://www.thinkdoc.vip/#google_vignette
-    img: /images/logos/thinkdoc.png
+    img: /images/logos/happy.png
     description: 收录最优质的电子图书，提供最方便的阅读体验。
   - name: GitBook
     url: https://git-scm.com/book/zh/v2
@@ -303,18 +336,18 @@ videoTutorial:
 postGraduate:
   - name: 研招网
     url: https://yz.chsi.com.cn
-    img: /images/logos/yanzhaowang.png
+    img: /images/logos/yanzhao.png
     description: 中国研究生招生信息网。
 
 ## 技术官网
 openSource:
   - name: Spring
     url: https://spring.io
-    img: /images/logos/spring.webp
+    img: /images/logos/spring.png
     description: Spring框架官网。
   - name: Apache
     url: https://www.apache.org
-    img: /images/logos/apache.jpg
+    img: /images/logos/apache.png
     description: Apache基金会官网。
   - name: Sentinel
     url: https://sentinelguard.io/zh-cn/index.html
@@ -328,6 +361,19 @@ openSource:
     url: https://nodejs.org/
     img: /images/logos/nodejs.png
     description: 免费、开源、跨平台的JavaScript运行时环境，允许开发人员创建服务器、Web应用程序、命令行工具和脚本。
+  - name: MyBatis-plus
+    url: https://mybatis.plus/
+    img: /images/logos/mybatisplus.svg
+    description: MyBatis的增强工具。
+  - name: MySQL
+    url: https://www.mysql.com
+    img: /images/logos/mysql.png
+    description: 开源的关系型数据库管理系统。
+  - name: Apache Shenyu
+    url: https://shenyu.apache.org/zh/
+    img: /images/logos/shenyu.png
+    description: 异步的，高性能的，跨语言的，响应式的API网关。
+
 
 ## 技术社区
 technicalCommunity:
@@ -351,16 +397,24 @@ technicalCommunity:
     url: https://www.w2solo.com
     img: /images/logos/w2solo.png
     description: 独立开发者社区。
-  - name: 京东云
+  - name: 京东云开发者社区
     url: https://developer.jdcloud.com
     img: /images/logos/jdcloud.png
     description: 京东云-开发者社区。
+  - name: 腾讯云开发者社区
+    url: https://cloud.tencent.com/developer
+    img: /images/logos/tengxunyun.webp
+    description: 腾讯云-开发者社区。
+  - name: LeetCode
+    url: https://leetcode.cn
+    img: /images/logos/leetcode.png
+    description: 技术成长平台。
 
 ## 其他社区
 otherCommunity:
   - name: 写作社区
     url: https://xie.infoq.cn
-    img: /images/logos/xiezuo.png
+    img: /images/logos/info.png
     description: 专业技术博客社区。
 
 ## 影音视频
@@ -379,7 +433,7 @@ videoAudio:
     description: 免费电影电视剧下载网站。
   - name: 可可影视
     url: https://www.keke6.app
-    img: /images/logos/kekeyingshi.png
+    img: /images/logos/keke.png
     description: 你想看的都有。
   - name: 布谷TV
     url: https://www.bugutv.org
@@ -413,7 +467,7 @@ games:
 news:
   - name: 微博
     url: https://weibo.com/
-    img: /images/logos/weibo.jpg
+    img: /images/logos/weibo.webp
     description: 随时随地发现新鲜事。
   - name: 今日头条
     url: https://www.toutiao.com
@@ -473,6 +527,17 @@ usefulTools:
     url: https://tool.oschina.net/codeformat/xml/
     img: /images/logos/tooloschina.jpg
     description: 在线代码格式化工具。
+  - name: 在线工具
+    url: https://tool.lu
+    img: /images/logos/zaixiangongju.png
+    description: 很多实用的在线工具网站。
+
+## 开发工具
+developTools:
+  - name: Maven仓库
+    url: https://mvnrepository.com
+    img: /images/logos/maven.png
+    description: 开源Java项目的依赖管理工具。
 
 ## Mac专区
 macZone:
