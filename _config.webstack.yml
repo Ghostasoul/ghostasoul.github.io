@@ -246,6 +246,10 @@ cloudServer:
     url: https://vercel.com
     img: /images/logos/vercel.webp
     description: 通过前端云构建和服务器端计算，为开发人员提供快速、可靠的静态网站托管服务。
+  - name: Cloudflare
+    url: https://www.cloudflare-cn.com
+    img: /images/logos/cloudflare.png
+    description: 云服务提供商。
 
 ## 博客站点
 blogSite:
@@ -305,7 +309,18 @@ blogSite:
     url: http://icyfenix.cn/summary/
     img: /images/logos/fenghuang.png
     description: 站在架构师的角度看系统。
-
+  - name: 小林Coding
+    url: https://xiaolincoding.com
+    img: /images/logos/xiaolin.webp
+    description: 一位程序员的技术博客。
+  - name: 程序员风筝
+    url: https://moonkite.cn
+    img: /images/logos/fengzheng.png
+    description: 程序员风筝，一个分享技术、分享生活的个人网站。
+  - name: CS-Notes 面试笔记
+    url: https://cyc2018.xyz
+    img: /images/logos/cys.png
+    description: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计。
 ## 书籍文档
 bookDocument:
   - name: 微信读书
@@ -328,6 +343,10 @@ bookDocument:
     url: https://git-scm.com/book/zh/v2
     img: /images/logos/gitbook.png
     description: 讲解Git最棒的电子书。
+  - name: 什么值得读
+    url: https://www.shenmezhidedu.com
+    img: /images/logos/shenmezhidedu.png
+    description: 互联网人的书单库。
 
 ## 视频教程
 videoTutorial:
@@ -402,6 +421,19 @@ openSource:
     url: https://opensource.alibaba.com
     img: /images/logos/aliopen.png
     description: 阿里巴巴集团开源技术。
+  - name: SkyWalking
+    url: https://skywalking.apache.org
+    img: /images/logos/skywalking.svg
+    description: 分布式系统的应用程序性能监视工具。
+  - name: K8S
+    url: https://kubernetes.io/zh-cn/
+    img: /images/logos/k8s.png
+    description: 开源的容器集群管理系统。
+  - name: Arthas
+    url: https://arthas.aliyun.com
+    img: /images/logos/arthas.png
+    description: Java诊断工具。
+
 
 
 ## 技术社区
@@ -537,6 +569,10 @@ material:
     url: https://ywyj.cn
     img: /images/logos/ywyj.png
     description: 一起发现有趣产品。
+  - name: Uiverse
+    url: https://uiverse.io
+    img: /images/logos/uiverse.png
+    description: 优质设计资源分享平台。
 
 
 ## 网络加速
@@ -573,6 +609,10 @@ macZone:
   - name: MacWK
     url: https://macwk.cn
     img: /images/logos/macwk.png
+    description: 精品Mac软件下载。
+  - name: MacVk
+    url: https://www.macvk.com
+    img: /images/logos/macvk.png
     description: 精品Mac软件下载。
   - name: 腾讯柠檬
     url: https://lemon.qq.com/lab/
