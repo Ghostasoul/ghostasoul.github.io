@@ -433,6 +433,10 @@ openSource:
     url: https://arthas.aliyun.com
     img: /images/logos/arthas.png
     description: Java诊断工具。
+  - name: Nginx
+    url: https://www.nginx-cn.net
+    img: /images/logos/nginx.png
+    description: 高性能的HTTP和反向代理服务器，以及邮件代理服务器。
 
 
 
