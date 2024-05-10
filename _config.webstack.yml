@@ -57,7 +57,6 @@ menu:
         icon: fas fa-tools
         config: technicalCommunity
 
-
   - name: 教育学习
     icon: fas fa-tools
     submenu:
@@ -73,7 +72,6 @@ menu:
       - name: 其他社区
         icon: fas fa-blog
         config: otherCommunity
-
 
   - name: 休闲娱乐
     icon: fas fa-tools
@@ -180,6 +178,10 @@ gitHosting:
     url: https://app.buddy.works
     img: /images/logos/buddy.png
     description: 很好用的自动化部署工具。
+  - name: Jenkins
+    url: https://www.jenkins.io/zh/
+    img: /images/logos/jenkins.svg
+    description: 开源的持续集成工具。
 
 ## 开源项目
 staticWebsite:
@@ -359,7 +361,6 @@ videoTutorial:
     img: /images/logos/bilibili.png
     description: 全球知名的视频网站。
 
-
 ## 考研相关
 postGraduate:
   - name: 研招网
@@ -437,8 +438,6 @@ openSource:
     url: https://www.nginx-cn.net
     img: /images/logos/nginx.png
     description: 高性能的HTTP和反向代理服务器，以及邮件代理服务器。
-
-
 
 ## 技术社区
 technicalCommunity:
