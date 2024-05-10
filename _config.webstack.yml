@@ -67,6 +67,8 @@ menu:
       - name: 视频教程
         icon: fas fa-blog
         config: videoTutorial
+        
+        
       - name: 考研相关
         icon: fas fa-blog
         config: postGraduate
@@ -180,6 +182,10 @@ gitHosting:
     url: https://app.buddy.works
     img: /images/logos/buddy.png
     description: 很好用的自动化部署工具。
+  - name: Jenkins
+    url: https://www.jenkins.io/zh/
+    img: /images/logos/jenkins.svg
+    description: 开源的持续集成工具。
 
 ## 开源项目
 staticWebsite:
