@@ -444,6 +444,10 @@ openSource:
     url: https://www.nginx-cn.net
     img: /images/logos/nginx.png
     description: 高性能的HTTP和反向代理服务器，以及邮件代理服务器。
+  - name: MinIO
+    url: https://min.io/download?license=enterprise&platform=kubernetes
+    img: /images/logos/minio.svg
+    description: 高性能的对象存储服务
 
 ## 技术社区
 technicalCommunity:
@@ -605,6 +609,10 @@ usefulTools:
     url: https://tool.lu
     img: /images/logos/zaixiangongju.png
     description: 很多实用的在线工具网站。
+  - name: Excalidraw
+    url: https://excalidraw.com
+    img: /images/logos/excalidraw.webp
+    description: 一个开源的手绘风格在线绘图工具，主要用于创建简单、自由的图表和草图。
 
 ## 开发工具
 developTools:
@@ -612,6 +620,10 @@ developTools:
     url: https://mvnrepository.com
     img: /images/logos/maven.png
     description: 开源Java项目的依赖管理工具。
+  - name: Hutool
+    url: https://www.hutool.cn
+    img: /images/logos/hutool.svg
+    description: 是一个非常轻量级的 Java 工具包，提供了丰富的常用工具类和方法，简化了 Java 开发中常见的操作。
 
 ## Mac专区
 macZone:
@@ -634,6 +646,22 @@ aiTools:
     url: https://chat.openai.com
     img: /images/logos/chatgpt.png
     description: 很好用的AI工具···
+  - name: HuggingfaceChat
+    url: https://huggingface.co/chat/
+    img: /images/logos/huggingface.svg
+    description: 很好用的AI聊天工具···
+  - name: 通义千问
+    url: https://tongyi.aliyun.com
+    img: /images/logos/tongyiqianwen.svg
+    description: 通义千问是阿里巴巴推出的一款大语言模型（LLM），类似于 OpenAI 的 GPT 系列，旨在提供智能对话、知识问答、文本生成、翻译等多种自然语言处理能力
+  - name: Ollama
+    url: https://ollama.com
+    img: /images/logos/ollama.png
+    description: 在本地运行大语言模型（LLM）的开源工具或平台
+  - name: Huggingface
+    url: https://huggingface.co
+    img: /images/logos/huggingface.svg
+    description: 流行的开源平台，专注于自然语言处理（NLP）、机器学习和大语言模型的开发与应用
 
 about:
   url: /about/
